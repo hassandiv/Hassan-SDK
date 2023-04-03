@@ -1,0 +1,31 @@
+{
+  "name": "hassan-sdk",
+  "version": "1.0.0",
+  "description": "The Lord of the Rings SDK, built with Node &amp; TypeScript",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && microbundle --tsconfig tsconfig.json --no-sourcemap"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hassandiv/hassan-SDK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hassandiv/hassan-SDK/issues"
+  },
+  "homepage": "https://github.com/hassandiv/hassan-SDK#readme",
+  "devDependencies": {
+    "microbundle": "^0.15.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  }
+}
