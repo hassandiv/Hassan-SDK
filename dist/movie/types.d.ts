@@ -30,3 +30,7 @@ export type Quotes = {
     page: number;
     pages: number;
 };
+export type Options = {
+    limit: number;
+    offset: number;
+};

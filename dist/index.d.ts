@@ -1,7 +1,7 @@
 import { Base } from "./base";
 import { Movie } from "./movie/index";
-declare class TheOneAPI extends Base {
+declare class LordOfTheRingsAPI extends Base {
 }
-interface TheOneAPI extends Movie {
+interface LordOfTheRingsAPI extends Movie {
 }
-export default TheOneAPI;
+export default LordOfTheRingsAPI;

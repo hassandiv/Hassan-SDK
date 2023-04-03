@@ -2,9 +2,9 @@ import { Base } from "./base";
 import { Movie } from "./movie/index";
 import { applyMixins } from "./utils";
 
-class TheOneAPI extends Base {}
-interface TheOneAPI extends Movie {}
+class LordOfTheRingsAPI extends Base {}
+interface LordOfTheRingsAPI extends Movie {}
 
-applyMixins(TheOneAPI, [Movie]);
+applyMixins(LordOfTheRingsAPI, [Movie]);
 
-export default TheOneAPI;
+export default LordOfTheRingsAPI;
