@@ -42,7 +42,7 @@ yarn add @hassandiv/lord-of-the-rings-sdk
 
 ## Usage
 
-To use the SDK, simply import it into your app.ts project and create a new instance of the LordOfTheRingsAPI class:
+To use the SDK, simply import it into your app.ts file in your project and create a new instance of the LordOfTheRingsAPI class:
 
 ```ts
 import LordOfTheRingsAPI from "@hassandiv/lord-of-the-rings-sdk";
@@ -106,7 +106,7 @@ client
   });
 ```
 
-## How to test
+## How to test the SDK
 
 - Open your project folder in a code editor or terminal.
 - Run the following command in the terminal to initialize a new TypeScript project:
