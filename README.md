@@ -34,7 +34,7 @@ To install the SDK, simply run the following command on your project:
 
 ```
 npm install @hassandiv/lord-of-the-rings-sdk
-OR
+//OR
 yarn add @hassandiv/lord-of-the-rings-sdk
 ```
 
@@ -43,7 +43,7 @@ yarn add @hassandiv/lord-of-the-rings-sdk
 To use the SDK, simply import it into your project and create a new instance of the LordOfTheRingsAPI class:
 
 ```
-import LordOfTheRingsAPI from "@hassandiv/lord-of-the-rings-sdk";;
+import LordOfTheRingsAPI from "@hassandiv/lord-of-the-rings-sdk";
 ```
 
 The LordOfTheRings constructor accepts a configuration object with the following properties:
