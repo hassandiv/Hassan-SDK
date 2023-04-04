@@ -110,7 +110,7 @@ client
   });
 ```
 
-## Error
+## Error Handling
 
 The SDK uses the fetch function to communicate with the API and it handles errors using the throw statement. When the API response indicates an error, such as a status outside the 200-299 range, the fetch function throws an Error object with the status text as its message. This error is then caught by the SDK and is re-thrown with a more informative error message.
 
