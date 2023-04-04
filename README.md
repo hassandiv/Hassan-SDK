@@ -77,9 +77,9 @@ client
 The `getMovieById(id)` method retrieves a single Lord of the Rings movie using its unique ID. The ID should be provided as a string, and the following are the IDs for all the Lord of the Rings movies:
 
 ```
-const id1 = "5cd95395de30eff6ebccde5c";
-const id2 = "5cd95395de30eff6ebccde5b";
-const id3 = "5cd95395de30eff6ebccde5d";
+const id1 = "5cd95395de30eff6ebccde5c"; //The Fellowship of the Ring
+const id2 = "5cd95395de30eff6ebccde5b"; //The Two Towers
+const id3 = "5cd95395de30eff6ebccde5d"; //The Return of the King
 
 client
   .getMovieById(id1)
