@@ -18,6 +18,7 @@
 ## General Information
 
 @hassandiv/lord-of-the-rings-sdk allows developers to incorporate Lord of the Rings features into their applications, such as getting information on the lord of the rings movies, and quotes from the series. The SDK was created to simplify and streamline the process of integrating these functionalities into applications.
+Link to NPM: https://www.npmjs.com/package/@hassandiv/lord-of-the-rings-sdk
 
 ## Technologies Used
 
